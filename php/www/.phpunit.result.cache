@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\UserTest::testCreateUser":4},"times":{"Tests\\UserTest::testCreateUser":0.001,"Tests\\TestCase\\UserTest::testCreateUser":0.07}}

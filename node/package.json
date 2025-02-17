@@ -1,0 +1,31 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Node.js CRUD API",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "jest --runInBand --forceExit",
+    "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage --runInBand --forceExit"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}

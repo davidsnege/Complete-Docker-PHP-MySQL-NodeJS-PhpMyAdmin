@@ -128,3 +128,18 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# MySQL
+mysql/bd/data/
+mysql/bd/#innodb_redo/
+mysql/bd/*.sql
+mysql/bd/*.gz
+mysql/bd/*.log
+mysql/bd/*.pid
+mysql/bd/*.err
+mysql/bd/*.cnf
+mysql/bd/*.cfg
+mysql/bd/*.sock
+mysql/bd/*.frm
+mysql/bd/*.ibd
+mysql/bd/*.opt
